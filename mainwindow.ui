@@ -41,6 +41,9 @@
       <height>381</height>
      </rect>
     </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QLineEdit" name="lineEdit">
     <property name="geometry">
@@ -50,6 +53,15 @@
       <width>71</width>
       <height>20</height>
      </rect>
+    </property>
+    <property name="inputMask">
+     <string>##</string>
+    </property>
+    <property name="maxLength">
+     <number>2</number>
+    </property>
+    <property name="placeholderText">
+     <string>From 1 to 99</string>
     </property>
    </widget>
    <widget class="QLabel" name="label">
@@ -86,6 +98,18 @@
       <width>71</width>
       <height>20</height>
      </rect>
+    </property>
+    <property name="inputMask">
+     <string>##</string>
+    </property>
+    <property name="maxLength">
+     <number>2</number>
+    </property>
+    <property name="frame">
+     <bool>true</bool>
+    </property>
+    <property name="placeholderText">
+     <string>From 1 to 99</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton">

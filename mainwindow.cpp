@@ -15,6 +15,7 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_pushButton_clicked()
 {
+    ui->textEdit->setText("");
     int q = ui->lineEdit->text().toInt();
     int l = ui->lineEdit_2->text().toInt();
     passgen p(q, l);
