@@ -12,3 +12,12 @@ MainWindow::~MainWindow()
 {
     delete ui;
 }
+
+void MainWindow::on_pushButton_clicked()
+{
+    int q = ui->lineEdit->text().toInt();
+    int l = ui->lineEdit_2->text().toInt();
+    passgen p(q, l);
+    p.init();
+
+}
