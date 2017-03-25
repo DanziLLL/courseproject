@@ -19,5 +19,8 @@ void MainWindow::on_pushButton_clicked()
     int l = ui->lineEdit_2->text().toInt();
     passgen p(q, l);
     p.init();
-
+    ui->textEdit->setFontFamily("DejaVu Sans Mono");
+    for (int i = 0; i < q; i++) {
+        ui->textEdit->append(p.getPassFromList(i));
+    }
 }

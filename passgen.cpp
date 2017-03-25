@@ -24,3 +24,8 @@ void passgen::generate(int n)
     }
     passlist.push_back(p);
 }
+
+QString passgen::getPassFromList(int n)
+{
+    return this->passlist.at(n);
+}

@@ -16,7 +16,7 @@ private:
 public:
     passgen(int q, int l);
     void init();
-    void getPassFromList(int n);
+    QString getPassFromList(int n);
 };
 
 #endif // PASSGEN_H

@@ -2,6 +2,8 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QFont>
+#include <QFontDatabase>
 #include <passgen.h>
 
 namespace Ui {
